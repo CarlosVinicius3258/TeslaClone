@@ -19,10 +19,18 @@ const styles = StyleSheet.create({
       title: {
         fontSize: 40,
         fontWeight: "600"
+      },
+      touchless:{
+        textDecorationLine: 'underline'
       }, 
       subtitle: {
         fontSize: 15,
         color: "#5c5e62"
+      },
+      buttonContainer:{
+        position: 'absolute',
+        bottom: 50,
+        width: '100%'
       }
 })
 
